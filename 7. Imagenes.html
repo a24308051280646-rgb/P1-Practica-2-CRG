@@ -1,32 +1,56 @@
+<!-- Define que es una pagina web -->
 <!DOCTYPE html>
-<html lang="en">
+<!-- Hace que el idioma principal de la pagina sea el español -->
+<html lang="es">
+   
+    <!-- Configuración para la pagina -->
 <head>
-    <!-- Configuración básica y título -->
+    <!-- Permite utilizar caracteres especiales -->
     <meta charset="UTF-8">
+    <!-- Ajusta el tamaño de la pagina para telefonos -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Es el titulo de la pestaña -->
     <title>Imagenes en HTML</title>
 </head>
+     <!-- Se cierra la configuracion para la pagina -->
+   
+<!-- Inicia el cuerpo principal de la pagina -->
 <body>
+    <!-- Título principal de la pagina -->
     <h2>Imagenes en HTML</h2>
 
+    <!-- Texto que indica el uso de imagenes en la misma carpeta -->
     <h3>Locales</h3>
-    <!-- Imagen en la misma carpeta. src: ruta de la imagen | alt: texto si no carga -->
+    <!-- Imagen almacenada en la misma ruta que el archivo HTML -->
+    <!-- En esta misma se utiliza "src" para indicar el nombre del archivo y "alt" para su texto descriptivo -->
     <img src="caritas.png" alt="Imagen de carita feliz">
+    <!-- Se cierra la parte de la imagen local -->
 
+    <!-- subtitulo que indica las imagenes locales modificando sus dimensiones -->
     <h3>Locales redismensionado</h3>
-    <!-- Imagen dentro de carpeta 'imagenes'. width y height cambian el tamaño -->
-    <img src="imagenes/carita.png" alt="" width="200" height="100">
+    <!-- Imagen ubicada dentro de la subcarpeta "imagenes" -->
+    <!-- se modifican las dimensiones utilizando "width" para el ancho y "height" para el alto -->
+    <img src="imagenes/carita.png" alt="Carita redimensionada" width="200" height="100">
+    <!-- Se cierra la parte de la imagen redimensionada -->
 
+    <!-- otro subtitulo que indica el uso de imagenes descargadas directamente de internet -->
     <h3>Desde internet</h3>
-    <!-- Imagen externa usando una URL web directa -->
+    <!-- Imagen cargada mediante una URL o direccion web directa -->
+    <!-- En esta misma se utiliza un enlace externo dentro del atributo "src" -->
     <img src="https://st2.depositphotos.com/2172759/11751/v/950/depositphotos_117511772-stock-illustration-happy-face-isolated-on-white.jpg" 
-    width="200" height="200"
-    alt="">
+    width="200" height="200" 
+    alt="Carita feliz de internet">
+    <!-- Se cierra la parte de la imagen de internet -->
 
+    <!-- Texto que habla sobre las imagenes en movimiento -->
     <h3>Animaciones</h3>
     <!-- Imagen animada tipo GIF desde internet -->
     <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExejMydmVybzBiY3lkdWd1Nnp1MzJiMXA3Ymt3czE3NGp1NDZuZDg5YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tXL4FHPSnVJ0A/giphy.gif" 
-    width="200" height="200"
-    alt="">
+    width="200" height="200" 
+    alt="Animacion GIF">
+    <!-- Se cierra la parte de las animaciones -->
+
 </body>
+<!-- Se cierra el cuerpo principal de la pagina -->
 </html>
+<!-- Fin de la pagina HTML -->
