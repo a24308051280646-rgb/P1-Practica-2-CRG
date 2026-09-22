@@ -1,16 +1,26 @@
+<!-- Define que es una pagina web -->
 <!DOCTYPE html>
-<html lang="en">
+<!-- Hace que el idioma principal de la pagina sea el español -->
+<html lang="es">
+   
+    <!-- Configuración para la pagina -->
 <head>
-    <!-- Configuración básica y título -->
+    <!-- Permite utilizar caracteres especiales -->
     <meta charset="UTF-8">
+    <!-- Ajusta el tamaño de la pagina para telefonos -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Es el titulo de la pestaña -->
     <title>Tipos de listas en HTML</title>
 </head>
+     <!-- Se cierra la configuracion para la pagina -->
+   
+<!-- Inicia el cuerpo principal de la pagina -->
 <body>
-    <!-- Título principal -->
+    <!-- Título principal de la pagina -->
     <h1>Tipos de listas</h1>
 
-    <!-- Lista ordenada (<ol>): muestra los elementos con números -->
+    <!-- Texto que habla sobre las listas numeradas y ordenadas -->
+    <!-- En este mismo se estructuran los elementos utilizando "<ol>" para la lista y "<li>" para cada item -->
     <h2>Listas ordenadas</h2>
     <p>Una lista ordenada es una serie de elementos los cuales 
         tendran una numeracion de acuerdo al numeros de elementos.
@@ -20,8 +30,10 @@
         <li>Franco Andrea</li>
         <li>Granados Evelyn</li>
     </ol>
+    <!-- Se cierra la parte de las listas ordenadas -->
 
-    <!-- Lista no ordenada (<ul>): muestra viñetas/puntos en vez de números -->
+    <!-- Texto que habla sobre las listas con viñetas sin numeracion -->
+    <!-- En este mismo se organizan los elementos utilizando "<ul>" y "<li>" para viñetas graficas -->
     <h2>Listas no ordenadas</h2>
     <p>Las listas no ordenadas no utilizan ninguna numeracion delante 
         de cada item sino un pequeño elemento grafico
@@ -31,8 +43,10 @@
         <li>C++</li>
         <li>Python</li>
     </ul>
+    <!-- Se cierra la parte de las listas no ordenadas -->
 
-    <!-- Lista de definición (<dl>): dt para el término y dd para la explicación -->
+    <!-- Texto que habla sobre definiciones de unos lenguajes -->
+    <!-- En este mismo se utilizan "<dl>" para el contenedor, "<dt>" para el concepto y "<dd>" para la definicion -->
     <h2>Lista de definiciones</h2>
     <p>Se utiliza para asociar un termino y la definicion del mismo</p>
     <dl>
@@ -55,8 +69,10 @@
             al lenguaje de programacion C.
         </dd>
     </dl>
+    <!-- Se cierra la parte de la lista de definiciones -->
 
-    <!-- Listas anidadas -->
+    <!-- Texto que habla sobre meter una lista dentro de otra lista -->
+    <!-- En este mismo se combinan listas "<ol>" y "<ul>" para crear subniveles jerarquicos -->
     <h2>Listas anidadas</h2>
     <p>En HTML nos permite insertar una lista dentro de otra lista, se pueden
         anidar diferentes tipos de lista de acuerdo al requerimiento
@@ -84,5 +100,9 @@
             </ul>
         </li>
     </ol>
+    <!-- Se cierra la parte de las listas anidadas -->
+
 </body>
+<!-- Se cierra el cuerpo principal de la pagina -->
 </html>
+<!-- Fin de la pagina HTML -->
