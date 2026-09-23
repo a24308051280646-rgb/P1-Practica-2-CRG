@@ -1,23 +1,33 @@
+<!-- Define que es una pagina web -->
 <!DOCTYPE html>
-<html lang="en">
+<!-- Hace que el idioma principal de la pagina sea el español -->
+<html lang="es">
 
+    <!-- Configuración para la pagina -->
 <head>
-    <!-- Configuración básica y título -->
+    <!-- Permite utilizar caracteres especiales -->
     <meta charset="UTF-8">
+    <!-- Ajusta el tamaño de la pagina para telefonos -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Es el titulo de la pestaña -->
     <title>Tablas en HTML</title>
 </head>
+     <!-- Se cierra la configuracion para la pagina -->
 
+<!-- Inicia el cuerpo principal de la pagina -->
 <body>
-    <!-- Introducción -->
+    <!-- Título principal de la pagina -->
     <h1>Tipos de tablas</h1>
+
+    <!-- Texto que habla sobre la funcion de las tablas -->
     <p>El objetivo fundamental de las tablas en HTML sera
         mostrar una serie de datos en forma ordenada,
         organizado en filas y columnas
     </p>
     <p>Para la creacion de una tabla intervienen diferentes elementos:</p>
 
-    <!-- Lista de definición de las etiquetas de una tabla -->
+    <!-- Texto que habla sobre las etiquetas que forman una tabla -->
+    <!-- En este mismo se utiliza "<dl>" para asociar las etiquetas "table", "tr" y "td" con sus explicaciones -->
     <dl>
         <dt>Table</dt>
         <dd>
@@ -35,8 +45,10 @@
             dentro del elemento tr
         </dd>
     </dl>
+    <!-- Se cierra la parte de las definiciones de etiquetas de tablas -->
 
-    <!-- 1. Tabla básica simple (filas con tr y datos con td) -->
+    <!-- Texto que habla sobre la creacion de una tabla -->
+    <!-- En este mismo se organiza la informacion en filas "<tr>" y celdas de datos "<td>"  -->
     <h2>Ejemplo</h2>
     <table border="1">
         <tr>
@@ -52,8 +64,10 @@
             <td>3.9 millones</td>
         </tr>
     </table>
+    <!-- Se cierra la parte de la tabla  -->
 
-    <!-- 2. Tabla agregando encabezados de columna con la etiqueta <th> -->
+    <!-- Texto que habla sobre la adicion de encabezados -->
+    <!-- En este mismo se resalta la primera fila utilizando la etiqueta "<th>" para diferenciar los titulos -->
     <h2>Tabla con encabezado</h2>
     <p>La caracteristicas de esta tabla es que se le agrega a las celdas 
         el encabezado correspondiente, esto solo aplicaria a la primera
@@ -78,8 +92,10 @@
             <td>3.9 millones</td>
         </tr>
     </table>
+    <!-- Se cierra la parte de la tabla con encabezado -->
 
-    <!-- 3. Tabla agregando un título usando la etiqueta <caption> justo al inicio -->
+    <!-- Texto que habla sobre la incorporacion de un titulo a la tabla -->
+    <!-- En este mismo se agrega la etiqueta "<caption>" justo al inicio del contenedor "<table>" -->
     <h2>Tabla con titulo</h2>
     <p>Para insertar un titulo a la tabla debemos incorporar el elemento caption 
         inmediatamente despues de abrir la etiqueta <em>table</em>.
@@ -103,6 +119,9 @@
             <td>3.9 millones</td>
         </tr>
     </table>
-</body>
+    <!-- Se cierra la parte de la tabla con titulo -->
 
+</body>
+<!-- Se cierra el cuerpo principal de la pagina -->
 </html>
+<!-- Fin de la pagina HTML -->
